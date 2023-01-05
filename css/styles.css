@@ -1,0 +1,130 @@
+/* Style for body specifies a backgorund color */
+body {
+	background-color: #432657;
+}
+
+/* style to create a fluid image */
+img {
+	max-width: 10%;
+	padding-bottom: 2em;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for header specifies top margin, background color, rounded corners, and center aligns content*/
+header {
+	text-align: center;
+}
+
+/* Style for nav specifies text properties*/
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+}
+
+/* Style specifies padding and margins for nav ul */
+nav ul{
+	padding-left: 7em;
+	padding-right: 7em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specified the background color, rounded corners, removes bullet style, and applies margins and padding for list items wihin the nav */
+nav li{
+	background-color: #7a3a77;
+	border-radius: .5em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: .4em;
+}
+
+/* Style changes nav link text color to white and removes underline */
+nav li a{
+	color: #d5eaeb;
+	text-decoration: none;
+}
+
+/* Style for main specifies a block displa, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sana-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+}
+
+/* Style for anchor elements within the main elements */
+main a { 
+	Background-color: #9D9D93;
+	border-radius: 1em;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+/* style specifies the fpnt size and font of main paragraph*/
+main p {
+	font-size: 1em;
+	font-family: Verdana, Arial, sana-serif;
+}
+
+/* style spcifies width for img in main */
+main img{
+	max-width: 30em;
+	max-height: 10em;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+}
+
+/* style for anchor elemeents within the footer*/
+footer a { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* style hides tablet class*/
+.tablet{
+	display: none;
+}
+
+/* style rule specifies to not display the equip class*/
+.equip {
+	display: none;
+}
+
+.Flying {
+	max-height: 100%;
+}
+
+.fennec {
+	max-height: 100%;
+}
+
+.Artic {
+	max-height: 100%
+}
+
+.Red {
+	max-height: 100%
+}
